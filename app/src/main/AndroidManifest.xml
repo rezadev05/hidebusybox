@@ -17,7 +17,7 @@
 
         <meta-data
             android:name="xposeddescription"
-            android:value="Hide Busybox With Native C/C++" />
+            android:value="Hide Busybox With Java and Native C/C++." />
 
         <meta-data
             android:name="xposedminversion"
