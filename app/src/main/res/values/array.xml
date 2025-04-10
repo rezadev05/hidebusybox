@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="exposedscope" >
+        <item>com.icon.pln123</item>
+        <item>com.byxiaorun.detector</item>
+        <item>com.scottyab.rootbeer.sample</item>
+        <item>com.apps.MyXL</item>
+    </string-array>
+</resources>

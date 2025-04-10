@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:label="@string/app_name">
+
+        <meta-data
+            android:name="xposedsharedprefs"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Hide Busybox With Native C/C++" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+
+        <meta-data
+            android:name="xposedclassname"
+            android:value="io.github.rezadev05.hidebusybox.HideBusybox" />
+
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/exposedscope"/>
+
+    </application>
+
+</manifest>
